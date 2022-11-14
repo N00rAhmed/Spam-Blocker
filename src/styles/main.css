@@ -1,0 +1,74 @@
+/* .text-field{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;*/
+    /* border-color: black; */
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    /* border-radius: 10px; */
+    /* height:10px; */
+
+/* } */
+
+input[type="text"]{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 5px;
+    height:50px;
+    width: 300px;
+  }
+  
+
+  input[type="password"]{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:20px;
+    border-radius: 10px;
+    border-width: 5px;
+    height:50px;
+    width: 300px;
+  }
+
+
+  .captcha{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:20px;
+    height: 50px;
+    width:70px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-left:96.2%; */
+    padding-right: 96.2%;
+    width: 50px;
+    background-color: #282c34;
+}
+/* .text-fieldtwo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    
+    /* border-color: black;
+    border-style: solid;
+    border-width: 1px; */
+
+/* } */
+
