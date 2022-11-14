@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import ReCAPTCHA from "react-google-recaptcha";
-// import emailjs from 'emailjs-com';
 import Logo from '../pictures/Rocket.png';
 // npm install @mui/icons-material --force
 // npm i emailjs-com --save
@@ -30,16 +29,16 @@ function Main() {
         <p>Register Account</p>
         
         <div className='text-field'>
-            <input type="text" placeholder='username'></input>
+            <input type="text" placeholder='username' name='name'></input>
             </div>
             
             <div className='text-fieldtwo'>
-                <input type="password" placeholder='password'></input>
+                <input type="password" placeholder='password' name='password'></input>
                 <br/>
             </div>
 
             <div className='text-fieldthree'>
-            <input type="text" placeholder='email'></input>
+            <input type="text" placeholder='email' name='email'></input>
             </div>
 
             <div className='captcha'>
@@ -52,7 +51,6 @@ function Main() {
 }
 
 
-// reCAPTCHA couldn't find user-provided function: onloadCallback
 
   
 export default Main;
